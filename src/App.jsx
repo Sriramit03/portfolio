@@ -8,10 +8,10 @@ import ScrollToTop from './components/ScrollToTop.jsx';
 import UseScrollToTop from './hooks/useScrollToTop.jsx';
 
 const About = lazy(()=>import('./pages/ConfusionAbout.jsx'))
-const Contact = lazy(()=>import('./Pages/Contact.jsx'))
-const Home = lazy(()=>import('./Pages/Home.jsx'))
-const Projects = lazy(()=>import('./pages/Projects.jsx'))
-const SingleProject = lazy(()=>import('./Pages/SingleProject.jsx'))
+const Contact = lazy(()=>import('./pages/ConfusionContact.jsx'))
+const Home = lazy(()=>import('./pages/ConfusionHome.jsx'))
+const Projects = lazy(()=>import('./pages/ConfusionProjects.jsx'))
+const SingleProject = lazy(()=>import('./pages/ConfusionSingleProject.jsx'))
 import './App.css'
 const App = () => {
   return (

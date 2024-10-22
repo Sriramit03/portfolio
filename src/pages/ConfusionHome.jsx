@@ -6,7 +6,7 @@ import ProjectsGrid from "../components/projects/ProjectsGrid";
 import Button from "../components/reusable/Button";
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const ConfusionHome = () => {
   return (
     <div className="container mx-auto ">
       <AppBanner />
@@ -26,4 +26,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default ConfusionHome;

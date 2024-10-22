@@ -3,7 +3,7 @@ import ProjectDescription from '../components/projects/ProjectDescription';
 import ProjectDetailsHeader from '../components/projects/ProjectDetailsHeader'
 import { SingleContextProvider } from '../context/SingleProjectContext';
 import { motion } from 'framer-motion';
-const SingleProject = () => {
+const ConfusionSingleProject = () => {
   return (
     <motion.div
 			initial={{ opacity: 0 }}
@@ -23,4 +23,4 @@ const SingleProject = () => {
   )
 }
 
-export default SingleProject
+export default ConfusionSingleProject

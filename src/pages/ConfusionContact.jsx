@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import ContactDetails from "../components/contact/ContactDetails";
 import ContactForm from "../components/contact/ContactForm";
 
-const Contact = () => {
+const ConfusionContact = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -16,4 +16,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ConfusionContact;

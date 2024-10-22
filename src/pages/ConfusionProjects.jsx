@@ -1,7 +1,7 @@
 import ProjectsGrid from '../components/projects/ProjectsGrid';
 import { ProjectProvider } from '../context/ProjectsContext';
 
-const Projects = () => {
+const ConfusionProjects = () => {
     
 	return (
 		<ProjectProvider>
@@ -12,4 +12,4 @@ const Projects = () => {
 	);
 };
 
-export default Projects;
+export default ConfusionProjects;
