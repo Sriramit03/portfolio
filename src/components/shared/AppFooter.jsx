@@ -19,7 +19,7 @@ const socialLinks = [
   {
     id: 3,
     icon: <FiLinkedin />,
-    url: "https://www.linkedin.com/in/sriramRamasamy03it/",
+    url: "https://www.linkedin.com/in/sriramrit/",
   },
 ];
 const AppFooter = () => {

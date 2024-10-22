@@ -42,8 +42,8 @@ const AppBanner = () => {
           className="flex justify-center sm:block"
         >
           <a
-            download="Sriram-Resume.pdf"
-            href="/Files/Sriram-Resume.pdf"
+            download="Sriram_Resume.pdf"
+            href="/Files/Sriram_Resume.pdf"
             className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 "
             aria-label="Download-Resume"
           >
