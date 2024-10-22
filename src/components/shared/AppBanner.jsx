@@ -1,8 +1,7 @@
 import React from "react";
 import useThemeSwitcher from "../../hooks/useThemeSwitcher";
 import { FiArrowDownCircle } from "react-icons/fi";
-import developerLight from "../../images/developer.svg";
-import developerDark from "../../images/developer-dark.svg";
+import developerDark from "../../images/newIllustration.svg";
 import { motion } from "framer-motion";
 
 
@@ -62,7 +61,7 @@ const AppBanner = () => {
         transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
         className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
       >
-        <img src={ activeTheme === 'dark' ? developerDark: developerLight} alt="Developer"/>
+        <img src={developerDark} alt="Developer"/>
       </motion.div>
     </motion.section>
   );

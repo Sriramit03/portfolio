@@ -8,7 +8,7 @@ import logoDark from "../../images/logo-dark.svg";
 import { motion } from "framer-motion";
 import Button from "../reusable/Button";
 import "../../css/Tailwind.css";
-import Error from "../reusable/Error";
+
 const AppHeader = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -37,15 +37,12 @@ const AppHeader = () => {
       setShowModal(false);
     }
   }
-  function whenReqSub ()
-  {
+  function whenReqSub() {
     document
-        .getElementsByTagName("html")[0]
-        .classList.remove("overflow-y-hidden");
-      setShowModal(false);
-      
+      .getElementsByTagName("html")[0]
+      .classList.remove("overflow-y-hidden");
+    setShowModal(false);
   }
-  
 
   return (
     <motion.nav
@@ -54,7 +51,6 @@ const AppHeader = () => {
       id="nav"
       className="sm:container sm:mx-auto"
     >
-      
       <div className="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center py-6">
         {/* Header menu links and small screen hamburger menu */}
         <div className="flex justify-between items-center px-4 sm:px-0">
@@ -122,7 +118,7 @@ const AppHeader = () => {
             className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
             aria-label="About Me"
           >
-            About Me
+            About
           </Link>
           <Link
             to="contact"
@@ -194,11 +190,7 @@ const AppHeader = () => {
       {/* Show hire me modal */}
       <div>
         {showModal ? (
-          <HireMeModal
-            onClose={showHireMeModal}
-            onRequest={whenReqSub}
-            
-          />
+          <HireMeModal onClose={showHireMeModal} onRequest={whenReqSub} />
         ) : null}
         {showModal ? showHireMeModal : null}
       </div>
