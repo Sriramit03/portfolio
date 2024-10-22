@@ -1,7 +1,7 @@
 import AboutMeBio from "../components/about/AboutMeBio";
 import { motion } from "framer-motion";
 import Skills from "../components/about/Skills";
-const AboutMe = () => {
+const ConfusionAbout = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -15,4 +15,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default ConfusionAbout;
