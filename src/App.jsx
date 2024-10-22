@@ -7,7 +7,7 @@ import AppFooter from './components/shared/AppFooter';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import UseScrollToTop from './hooks/useScrollToTop.jsx';
 
-const About = lazy(()=>import('./Pages/About.jsx'))
+const About = lazy(()=>import('./Pages/AboutMe.jsx'))
 const Contact = lazy(()=>import('./Pages/Contact.jsx'))
 const Home = lazy(()=>import('./Pages/Home.jsx'))
 const Projects = lazy(()=>import('./pages/Projects.jsx'))
